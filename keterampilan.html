@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Halaman Tiga</title>
+  <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <h1 class="logo">Pendidikan & Pengalaman</h1>
+    <nav class="nav">
+      <a href="index.html">Beranda</a>
+      <a href="karya.html">Karya</a>
+      <a href="keterampilan.html" class="active">Keterampilan</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h2>Keterampilan Teknis</h2>
+  <ul>
+    <li>HTML, CSS, Python</li>
+    <li>Canva, CorrelDraw, Photoshop</li>
+    <li>Microsoft Office</li>
+  </ul>
+
+  <h2>Pengalaman & Pendidikan</h2>
+  <ul>
+    <li>2024 - Sekarang: Mahasiswa Informatika</li>
+    <li>2021 - 2023: Proyek Poster Sekolah</li>
+    <li>2022: PKL di Percetakan Segalen Indah</li>
+  </ul>
+
+  <h2>Testimoni</h2>
+  <blockquote>“Sangat rajin dan hasil kerjanya bagus.” — Dita</blockquote>
+  <blockquote>“Cepat tanggap dan mudah diajak kerja sama.” — Fani</blockquote>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>©<span id="year3"></span>RobiatulAdawiyyah</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year3').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Halaman Dua</title>
+  <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <h1 class="logo">Karya Saya Selama ini</h1>
+    <nav class="nav">
+      <a href="index.html">Beranda</a>
+      <a href="karya.html" class="active">Karya</a>
+      <a href="keterampilan.html">Keterampilan</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h2>Portofolio Karya</h2>
+  <table class="projects-table">
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Judul</th>
+        <th>Gambar</th>
+        <th>Deskripsi</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Website Profil</td>
+        <td><img src="karya2.png" class="thumb"></td>
+        <td>Membuat website profil menggunakan HTML dan CSS.</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Poster Karya Wisata</td>
+        <td><img src="karyasatu.jpg" class="thumb"></td>
+        <td>Desain poster Karya Wisata di sekolah.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Video Demonstrasi</h3>
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ksjjm0_fmSI?si=rDnfT5p4rW3rcXZG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>©<span id="year2"></span>RobiatulAdawiyyah</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year2').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

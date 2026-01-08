@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Halaman Empat</title>
+  <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <h1 class="logo">Contact me</h1>
+    <nav class="nav">
+      <a href="index.html">Beranda</a>
+      <a href="karya.html">Karya</a>
+      <a href="keterampilan.html">Keterampilan</a>
+      <a href="kontak.html" class="active">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h2>Informasi Kontak</h2>
+  <p>Email: <a href="biahadawiyyah0@email.com">biahadawiyyah0@email.com</a></p>
+  <p>Instagram: <a href="#">@robiatulcan_</a></p>
+
+  <h3>Lokasi</h3>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31699.604740065308!2d111.31784109433401!3d-6.714736948299491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7724380a162e63%3A0xbc8117e0521e1119!2sRembang%2C%20Kec.%20Rembang%2C%20Kabupaten%20Rembang%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1761661773962!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <h3>Kirim Pesan</h3>
+  <form onsubmit="alert('Terima kasih atas pesan Anda!'); return false;">
+    <label>Nama<br><input type="text" required></label><br>
+    <label>Email<br><input type="email" required></label><br>
+    <label>Pesan<br><textarea rows="5" required></textarea></label><br>
+    <button type="submit" class="btn">Kirim</button>
+  </form>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>©<span id="year4"></span>RobiatulAdawiyyah</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year4').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
